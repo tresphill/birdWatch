@@ -8,6 +8,11 @@ html, body {
     background-color: #a9a9a9;
   }
   
+  @font-face {
+    font-family: 'CinzelDecorative-Bold';
+    src: url('/fonts/CinzelDecorative-Bold.ttf') format('truetype');
+  }
+
   body {
     width: 70%;
     min-width: 800px;
@@ -15,7 +20,7 @@ html, body {
   }
   
   h1, h2, h3 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family:'CinzelDecorative-Bold';
     color: #2a2a2a;
   }
   
@@ -122,7 +127,9 @@ html, body {
   }
   
   aside img {
-    max-width: 100%;
+    max-width: 50%;
+    float: left;
+    padding-bottom: 2.5px;
   }
   
   footer {
